@@ -2,6 +2,8 @@
 
 Este projeto é uma aplicação de catálogo de filmes desenvolvida em React. A aplicação permite aos usuários navegar por diferentes filmes, visualizar detalhes e adicionar filmes aos favoritos.
 
+![Captura de tela 2025-02-13 165914](https://github.com/user-attachments/assets/608a10bb-f973-4107-a78d-96260ad4034b)
+
 ## Tecnologias Utilizadas
 
 - **React**: Biblioteca JavaScript para construção de interfaces de usuário.
