@@ -1,0 +1,64 @@
+.lista-filmes {
+    max-width: 1200px; /* Aumentei a largura máxima para ocupar mais espaço */
+    margin: 14px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Aumentei o mínimo para 250px */
+    gap: 20px; /* Aumentei o espaçamento entre os filmes */
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.lista-filmes article {
+    background-color: #fff;
+    padding: 20px; /* Aumentei o padding para dar mais destaque */
+    border-radius: 8px; /* Aumentei o border-radius */
+    box-sizing: border-box;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Adicionei uma transição suave */
+}
+
+.lista-filmes article:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra ao passar o mouse */
+}
+
+.lista-filmes strong {
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 24px; /* Aumentei o tamanho da fonte */
+    display: block;
+}
+
+.lista-filmes img {
+    width: 100%;
+    max-height: 400px; /* Aumentei a altura máxima da imagem */
+    object-fit: cover; /* Alterei para "cover" para preencher o espaço */
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.lista-filmes a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0; /* Aumentei o padding */
+    font-size: 26px; /* Aumentei o tamanho da fonte */
+    background-color: #8c6ef6;
+    text-decoration: none;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: background-color 0.2s ease; /* Adicionei uma transição suave */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.9);
+}
+
+.lista-filmes a:hover {
+    background-color: #6c48f1; /* Mudança de cor ao passar o mouse */
+}
